@@ -12,8 +12,8 @@ Easy navigation
 Responsive design
 User-friendly layout
 🛠️ Technologies Used
-HTML5
-CSS3
+HTML
+CSS
 JavaScript
 👩‍💻 Developer
 
