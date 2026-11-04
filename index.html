@@ -1,0 +1,423 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#fff8f5">
+
+  <meta name="description" content="Sweet Moments Pakistan - Beautiful cakes, luxury gifts, flowers and unforgettable wedding and event decorations.">
+
+  <title>Sweet Moments | Every Moment Deserves Something Special</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- ANNOUNCEMENT -->
+<div class="announcement">
+  ✨ Making your special moments sweeter | Delivering across Pakistan
+</div>
+
+<!-- HEADER -->
+<header class="header" id="home">
+
+  <a href="#home" class="logo">
+    Sweet <span>Moments.</span>
+    <small>CELEBRATE BEAUTIFULLY</small>
+  </a>
+
+  <button class="menu-toggle" id="menuToggle" aria-label="Open menu">☰</button>
+
+  <nav class="nav" id="nav">
+    <a href="#home">Home</a>
+    <a href="#categories">Collections</a>
+    <a href="#shop">Shop</a>
+    <a href="#about">Our Story</a>
+    <a href="#events">Events</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <button class="cart-button" id="openCart">
+    🛍 My Bag <span id="cartCount">0</span>
+  </button>
+
+</header>
+
+<main>
+
+<!-- HERO -->
+<section class="hero">
+
+  <div class="hero-content">
+
+    <span class="eyebrow">A LITTLE MAGIC IN EVERY DETAIL</span>
+
+    <h1>
+      Make Every Moment
+      <em>Sweet & Special.</em>
+    </h1>
+
+    <p>
+      From dreamy cakes and thoughtful gifts to beautiful flowers
+      and unforgettable celebrations, we make your happiness sweeter.
+    </p>
+
+    <div class="hero-buttons">
+      <a href="#shop" class="button">Explore Collection</a>
+      <a href="#about" class="button button-outline">Our Story</a>
+    </div>
+
+    <div class="hero-note">
+      <span>♡</span> Crafted with love, delivered with care.
+    </div>
+
+  </div>
+
+  <div class="hero-image">
+    <img
+      src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=1100"
+      alt="Beautiful celebration cake"
+    >
+    <div class="hero-sticker">
+      <span>Made with</span>
+      <strong>LOVE ♡</strong>
+    </div>
+  </div>
+
+</section>
+
+
+<!-- BENEFITS -->
+<section class="benefits">
+
+  <div>♡ <span>Made With Love</span></div>
+  <div>✿ <span>Beautifully Designed</span></div>
+  <div>✧ <span>Special For Every Occasion</span></div>
+  <div>♧ <span>Customer Happiness</span></div>
+
+</section>
+
+
+<!-- CATEGORIES -->
+<section class="section" id="categories">
+
+  <div class="section-heading">
+    <span class="eyebrow">EXPLORE OUR WORLD</span>
+    <h2>Something Beautiful for Everyone</h2>
+    <p>Discover our carefully curated collections for every special moment.</p>
+  </div>
+
+  <div class="category-grid">
+
+    <button class="category-card" data-category="cakes">
+      <img
+        src="https://images.unsplash.com/photo-1563729784474-d77dbb933a9e?w=800"
+        alt="Cakes and bakery collection"
+      >
+      <div class="category-overlay">
+        <span>01 / SWEET TREATS</span>
+        <h3>Cakes & Bakery</h3>
+        <span>Explore Collection →</span>
+      </div>
+    </button>
+
+    <button class="category-card" data-category="gifts">
+      <img
+        src="https://images.unsplash.com/photo-1490750967868-88aa4486c946?w=800"
+        alt="Flowers and gifts collection"
+      >
+      <div class="category-overlay">
+        <span>02 / THOUGHTFUL GIFTS</span>
+        <h3>Gifts & Flowers</h3>
+        <span>Explore Collection →</span>
+      </div>
+    </button>
+
+    <button class="category-card" data-category="events">
+      <img
+        src="https://images.unsplash.com/photo-1519741497674-611481863552?w=800"
+        alt="Wedding and event decorations"
+      >
+      <div class="category-overlay">
+        <span>03 / BIG CELEBRATIONS</span>
+        <h3>Weddings & Events</h3>
+        <span>Explore Collection →</span>
+      </div>
+    </button>
+
+  </div>
+
+</section>
+
+
+<!-- SHOP -->
+<section class="section shop-section" id="shop">
+
+  <div class="section-heading">
+    <span class="eyebrow">HANDPICKED WITH LOVE</span>
+    <h2>Find Your Something Special</h2>
+    <p>Beautiful creations made to make every occasion unforgettable.</p>
+  </div>
+
+  <div class="filters">
+
+    <button class="filter active" data-filter="all">All Collections</button>
+    <button class="filter" data-filter="cakes">Cakes & Bakery</button>
+    <button class="filter" data-filter="gifts">Gifts & Flowers</button>
+    <button class="filter" data-filter="events">Weddings & Events</button>
+
+  </div>
+
+  <div class="product-grid" id="productGrid"></div>
+
+</section>
+
+
+<!-- SPECIAL BANNER -->
+<section class="special-banner">
+
+  <div>
+    <span class="eyebrow">MAKE IT PERSONAL</span>
+    <h2>Every Gift Tells a Story.</h2>
+    <p>Make your loved ones feel extra special with a thoughtful surprise.</p>
+    <a href="#shop" class="button">Find a Perfect Gift</a>
+  </div>
+
+</section>
+
+
+<!-- ABOUT -->
+<section class="section about-section" id="about">
+
+  <div class="about-image">
+    <img
+      src="https://images.unsplash.com/photo-1513475382585-d06e58bcb0e0?w=900"
+      alt="Beautiful gifts arranged with care"
+      loading="lazy"
+    >
+  </div>
+
+  <div class="about-content">
+    <span class="eyebrow">A LITTLE ABOUT US</span>
+
+    <h2>Creating Moments That Stay Forever.</h2>
+
+    <p>
+      At Sweet Moments, we believe happiness lives in the little details.
+
+      Whether it's a beautifully crafted birthday cake, a bouquet
+      for someone you love, a thoughtful gift or a dream wedding,
+      we bring your ideas to life with creativity and care.
+    </p>
+
+    <a href="#contact" class="text-link">Let's create something beautiful →</a>
+  </div>
+
+</section>
+
+
+<!-- EVENTS -->
+<section class="event-section section" id="events">
+
+  <div class="event-content">
+    <span class="eyebrow">YOUR DREAM, OUR CREATION</span>
+
+    <h2>Let's Make Your Celebration Unforgettable.</h2>
+
+    <p>
+      From birthdays and engagements to elegant weddings,
+      we help bring your dream celebration to life.
+    </p>
+
+    <a href="#contact" class="button">Plan Your Event</a>
+  </div>
+
+</section>
+
+
+<!-- CONTACT -->
+<section class="section contact-section" id="contact">
+
+  <div class="section-heading">
+    <span class="eyebrow">WE WOULD LOVE TO HEAR FROM YOU</span>
+    <h2>Let's Talk About Your Special Moment.</h2>
+    <p>Tell us what you have in mind. We'd love to help you celebrate.</p>
+  </div>
+
+  <form id="contactForm" class="contact-form">
+
+    <input name="name" placeholder="Your Name" required>
+
+    <input name="phone" type="tel" placeholder="Phone Number" required>
+
+    <input name="email" type="email" placeholder="Email Address">
+
+    <select name="subject" required>
+      <option value="">What are you interested in?</option>
+      <option value="Cakes & Bakery">Cakes & Bakery</option>
+      <option value="Gifts & Flowers">Gifts & Flowers</option>
+      <option value="Weddings & Events">Weddings & Events</option>
+    </select>
+
+    <textarea name="message" placeholder="Tell us about your requirements..." required></textarea>
+
+    <button type="submit" class="button">Send Enquiry</button>
+
+  </form>
+
+</section>
+
+</main>
+
+
+<!-- CART OVERLAY -->
+<div class="overlay" id="overlay"></div>
+
+<!-- CART DRAWER -->
+<aside class="cart-drawer" id="cartDrawer">
+
+  <div class="drawer-header">
+    <div>
+      <span class="eyebrow">YOUR SELECTION</span>
+      <h2>Shopping Bag</h2>
+    </div>
+
+    <button class="close-button" id="closeCart">×</button>
+  </div>
+
+  <div class="cart-items" id="cartItems"></div>
+
+  <div class="cart-bottom">
+
+    <div class="total-row">
+      <span>Subtotal</span>
+      <strong id="cartSubtotal">Rs. 0</strong>
+    </div>
+
+    <p class="small-note">Delivery charges may apply.</p>
+
+    <button class="button full-button" id="checkoutButton">
+      Continue to Checkout
+    </button>
+
+  </div>
+
+</aside>
+
+
+<!-- CHECKOUT -->
+<section class="checkout-section" id="checkoutSection">
+
+  <div class="checkout-box">
+
+    <button class="close-button" id="closeCheckout">×</button>
+
+    <span class="eyebrow">ALMOST YOURS</span>
+
+    <h2>Complete Your Order</h2>
+
+    <form id="checkoutForm">
+
+      <label>Full Name</label>
+      <input name="name" required placeholder="Your full name">
+
+      <label>Phone Number</label>
+      <input name="phone" type="tel" required placeholder="03XXXXXXXXX">
+
+      <label>Email Address</label>
+      <input name="email" type="email" placeholder="Your email">
+
+      <label>Delivery Address</label>
+      <textarea name="address" required placeholder="Your complete address"></textarea>
+
+      <label>City</label>
+      <input name="city" required placeholder="Your city">
+
+      <label>Delivery Date</label>
+      <input name="deliveryDate" type="date" required>
+
+      <label>Payment Method</label>
+      <select name="payment" required>
+        <option value="">Choose payment method</option>
+        <option value="Cash on Delivery">Cash on Delivery</option>
+        <option value="Bank Transfer">Bank Transfer</option>
+      </select>
+
+      <label>Special Instructions</label>
+      <textarea name="notes" placeholder="Cake message, flower preferences, event details..."></textarea>
+
+      <div class="checkout-total">
+        <span>Total</span>
+        <strong id="checkoutTotal">Rs. 0</strong>
+      </div>
+
+      <button class="button full-button" type="submit">
+        Place Demo Order
+      </button>
+
+    </form>
+
+    <p class="small-note">
+      Demo checkout only. Secure payment processing will be added before launch.
+    </p>
+
+  </div>
+
+</section>
+
+
+<!-- CONFIRMATION -->
+<section class="confirmation" id="confirmation">
+
+  <div class="confirmation-box">
+    <div class="success-icon">✓</div>
+
+    <span class="eyebrow">THANK YOU</span>
+
+    <h2>Your Sweet Moment Starts Here!</h2>
+
+    <p>Your demo order has been saved in this browser.</p>
+
+    <p id="orderReference"></p>
+
+    <button class="button" id="continueShopping">Continue Shopping</button>
+  </div>
+
+</section>
+
+
+<!-- FOOTER -->
+<footer class="footer">
+
+  <a href="#home" class="logo">
+    Sweet <span>Moments.</span>
+  </a>
+
+  <p>Making every celebration a little sweeter. ♡</p>
+
+  <div class="footer-links">
+    <a href="#home">Home</a>
+    <a href="#shop">Shop</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </div>
+
+  <p>Pakistan | All prices in PKR</p>
+
+  <p class="copyright">
+    © <span id="year"></span> Sweet Moments. All rights reserved.
+  </p>
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
