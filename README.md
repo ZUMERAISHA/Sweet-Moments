@@ -7,14 +7,24 @@ Welcome to Sweet Moments, a beautiful and user-friendly website designed to make
 Sweet Moments is a customer-facing website featuring a clean, attractive design and easy navigation.
 
 ✨ Features
+
 Attractive and modern user interface
+
 Easy navigation
+
 Responsive design
+
 User-friendly layout
+
 🛠️ Technologies Used
+
 HTML
-CSS
+
+CSS  
+
 JavaScript
+
 👩‍💻 Developer
+
 
 Created with ❤️ using HTML, CSS and JavaScript.
