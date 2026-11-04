@@ -15,7 +15,7 @@ Easy navigation
 
 Responsive design
 
-User-friendly layout\
+User-friendly layout
 
 🛠️ Technologies Used
 
